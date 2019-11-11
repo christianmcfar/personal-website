@@ -102,7 +102,7 @@ export class Game extends Component {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
         return (
-            <div className="game">
+            <div className="game container center-ver">
                 <div className="game-board">
                     <Board
                         squares={current.squares}

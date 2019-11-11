@@ -14,7 +14,7 @@ export class FetchData extends Component {
 
   static renderForecastsTable(forecasts) {
     return (
-      <table className='table table-striped' aria-labelledby="tabelLabel">
+      <table className="table table-striped container" aria-labelledby="tabelLabel">
         <thead>
           <tr>
             <th>Date</th>
@@ -43,7 +43,7 @@ export class FetchData extends Component {
       : FetchData.renderForecastsTable(this.state.forecasts);
 
     return (
-      <div>
+      <div className="container center-ver">
         <h1 id="tabelLabel" >Weather forecast</h1>
         <p>This component demonstrates fetching data from the server.</p>
         {contents}
