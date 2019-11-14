@@ -11,6 +11,8 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .board-row:after {
