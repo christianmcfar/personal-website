@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { NavMenu } from './NavMenu';
+import { FootMenu } from './FootMenu';
 
 export class Layout extends Component {
   static displayName = Layout.name;
@@ -9,9 +10,10 @@ export class Layout extends Component {
     return (
       <div>
         <NavMenu />
-            <Container className="no-padding" fluid={true}>
+        <Container className="no-padding" fluid={true}>
             {this.props.children}
         </Container>
+        <FootMenu />
       </div>
     );
   }

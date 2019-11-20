@@ -5,6 +5,7 @@ import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { Game } from './components/Game';
+import { Contact } from './components/Contact';
 
 
 import './custom.css'
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Route path='/counter' component={Counter} />
         <Route path='/game' component={Game} />
         <Route path='/fetch-data' component={FetchData} />
+        <Route path='/contact' component={Contact} />
       </Layout>
     );
   }

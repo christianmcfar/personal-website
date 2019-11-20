@@ -104,6 +104,7 @@ export class Game extends Component {
         return (
             <div className="container center-ver">
                 <h1>Tic-tac-toe</h1>
+                <p>This page isn't fully complete yet! Here's a quick game in the meanwhile:</p>
                 <div className="game">
                     <div className="game-board">
                         <Board

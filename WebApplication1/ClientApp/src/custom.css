@@ -107,3 +107,17 @@ code {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
